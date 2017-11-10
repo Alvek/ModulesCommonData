@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ZedGraph;
 
-namespace NCE.UTscanner.ModulesCommonData
+namespace NCE.ModulesCommonData
 {
     public class Channel
     {

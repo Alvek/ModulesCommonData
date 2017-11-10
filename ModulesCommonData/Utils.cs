@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NCE.UTscanner.ModulesCommonData
+namespace NCE.ModulesCommonData
 {
     public static class ArrayExtensions
     {
