@@ -15,6 +15,8 @@ namespace NCE.ModulesCommonData
 
     public interface IRawDataInputModule : IRawSplitterTarget, IModule
     { }
+    public interface IFFTConvertedInputModule : IFFTConvertedSplitterTarget, IModule
+    { }
     /// <summary>
     /// Интерфейс сплитера конвертированных кооридинат
     /// </summary>
@@ -35,5 +37,9 @@ namespace NCE.ModulesCommonData
     public interface ILightBarrierSplitterTarget : IDataflowBlock
     {
         void LightBarrierReached(double barrierCoord);
+    }
+    public interface IFFTConvertedSplitterTarget : IDataflowBlock
+    {
+        void PostData(ConvertedFFT data);
     }
 }
